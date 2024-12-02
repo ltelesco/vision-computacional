@@ -1,0 +1,19 @@
+name-dataset: CIFAR
+name-experiment: "CIFAR-con-da"
+epochs: 60
+continue: True
+visdom:
+  url: 192.168.7.192
+  port: 8097
+#hiperparameters
+optimizer: Adam
+learning-rate: 0.01
+#common
+path-images: no_aplica # Descarga CIFAR10
+path-models: /home/ltelesco/Documents/tpvision
+# Dataset
+path-class: no_aplica # Descarga CIFAR10
+path-partition: no_aplica # Descarga CIFAR10
+#RaundAugment
+nvalue: 3
+mvalue: 3
