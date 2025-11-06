@@ -10,10 +10,10 @@ optimizer: Adam
 learning-rate: 0.01
 #common
 path-images: no_aplica # Descarga CIFAR10
-path-models: /home/ltelesco/Documents/tpvision
+path-models: /home/ltelesco/Documents/tpvision/vision-computacional
 # Dataset
 path-class: no_aplica # Descarga CIFAR10
 path-partition: no_aplica # Descarga CIFAR10
 #RaundAugment
-nvalue: 3
-mvalue: 3
+#nvalue: 1
+#mvalue: 1
